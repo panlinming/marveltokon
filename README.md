@@ -8,7 +8,6 @@ Domain: `marveltokonwiki.wiki`
 ## Local development
 
 ```bash
-cd site
 python -m http.server 8000
 # open http://localhost:8000
 ```
@@ -16,7 +15,7 @@ python -m http.server 8000
 ## Repository structure
 
 ```
-site/
+./ (repo root)
 ├── index.html                  # Home: hero, stats, start-here cards, about game
 ├── 404.html                    # Custom 404
 ├── robots.txt                  # SEO: allows crawling + sitemap pointer
@@ -59,3 +58,4 @@ tokon.gg, marveltokon.org, Dustloop, the official Zendesk FAQ, Destructoid and G
 ## Disclaimer
 
 Unofficial fan project. Not affiliated with Marvel, Arc System Works, Sony or PlayStation.
+
