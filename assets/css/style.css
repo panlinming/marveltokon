@@ -234,3 +234,17 @@ ol.steps li{margin-bottom:8px}
   .cta-row .btn{flex:1 1 100%;text-align:center}
   .hero h1{letter-spacing:.5px}
 }
+
+/* ===== Language dropdown (dark nav) ===== */
+.lang{position:relative;margin-left:6px}
+.lang-btn{display:flex;align-items:center;gap:6px;background:none;border:1px solid var(--dark-border);border-radius:8px;color:#e8e8ec;font-weight:700;font-size:.85rem;padding:7px 12px;cursor:pointer;letter-spacing:.5px}
+.lang-btn:hover{border-color:var(--primary);color:#fff}
+.lang-menu{position:absolute;right:0;top:calc(100% + 8px);background:#0c0c0e;border:1px solid var(--dark-border);border-radius:10px;display:none;min-width:170px;z-index:60;list-style:none;padding:6px;box-shadow:0 14px 34px rgba(0,0,0,.5)}
+.lang-menu.open{display:block}
+.lang-menu button{width:100%;text-align:left;background:none;border:none;color:#e8e8ec;padding:9px 12px;border-radius:6px;cursor:pointer;font-size:.88rem;font-weight:600}
+.lang-menu button:hover{background:var(--dark-card);color:#fff}
+.lang-menu button.active{color:var(--primary)}
+@media (max-width:720px){
+  .lang{margin-left:0}
+  .lang-menu{right:auto;left:0}
+}

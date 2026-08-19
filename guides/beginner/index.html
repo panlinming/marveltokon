@@ -25,12 +25,12 @@
     <a class="brand" href="/"><img src="/favicon-32x32.png" alt="Marvel Tokon Wiki logo">MARVEL <em>Tōkon</em>&nbsp;Wiki</a>
     <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">&#9776;</button>
     <ul class="nav-links">
-      <li><a href="/">Home</a></li>
-      <li><a href="/tier-list/">Tier List</a></li>
-      <li><a href="/characters/">Characters</a></li>
-      <li><a href="/guides/best-teams/">Best Teams</a></li>
-      <li><a href="/guides/beginner/" class="active">Beginner Guide</a></li>
-      <li><a href="/system-requirements/">Specs</a></li>
+      <li><a href="/" data-i18n="nav.home">Home</a></li>
+      <li><a href="/tier-list/" data-i18n="nav.tier">Tier List</a></li>
+      <li><a href="/characters/" data-i18n="nav.characters">Characters</a></li>
+      <li><a href="/guides/best-teams/" data-i18n="nav.teams">Best Teams</a></li>
+      <li><a href="/guides/beginner/" class="active" data-i18n="nav.beginner">Beginner Guide</a></li>
+      <li><a href="/system-requirements/" data-i18n="nav.specs">Specs</a></li>
     </ul>
   </div>
 </header>
@@ -38,8 +38,8 @@
 <main>
   <section class="page-head">
     <div class="container">
-      <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a> &rsaquo; <a href="/">Guides</a> &rsaquo; Beginner Guide</nav>
-      <h1>Beginner Guide &amp; Core Mechanics</h1>
+      <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/" data-i18n="nav.home">Home</a> &rsaquo; <a href="/">Guides</a> &rsaquo; Beginner Guide</nav>
+      <h1 data-i18n="page.h1.beginner">Beginner Guide &amp; Core Mechanics</h1>
       <p class="lead">MARVEL Tōkon: Fighting Souls reinvents tag fighting around a 4v4 squad and one shared health bar. This guide covers everything a new player needs in the first hours: the Assemble system, basic controls, and the mechanics that decide rounds.</p>
       <div class="meta-chips">
         <span class="chip">4v4 Team Battles</span>
@@ -129,17 +129,17 @@
         <p>Independent fan-made guide hub for MARVEL Tōkon: Fighting Souls. Roster, mechanics and competitive strategies for beginners and ranked players alike.</p>
       </div>
       <div>
-        <h4>Guides</h4>
+        <h4 data-i18n="footer.guides">Guides</h4>
         <ul>
-          <li><a href="/guides/beginner/">Beginner Guide</a></li>
-          <li><a href="/tier-list/">Tier List</a></li>
+          <li><a href="/guides/beginner/" data-i18n="nav.beginner">Beginner Guide</a></li>
+          <li><a href="/tier-list/" data-i18n="nav.tier">Tier List</a></li>
           <li><a href="/characters/">Character Roster</a></li>
           <li><a href="/guides/best-teams/">Best Team Comps</a></li>
-          <li><a href="/system-requirements/">Specs</a></li>
+          <li><a href="/system-requirements/" data-i18n="nav.specs">Specs</a></li>
         </ul>
       </div>
       <div>
-        <h4>Official &amp; Community</h4>
+        <h4 data-i18n="footer.official">Official &amp; Community</h4>
         <ul>
           <li><a href="https://www.playstation.com/games/marvel-tokon-fighting-souls/" target="_blank" rel="noopener">Play MARVEL Tōkon</a></li>
           <li><a href="https://discord.gg/marveltokonofficial" target="_blank" rel="noopener">Official Discord</a></li>
@@ -150,11 +150,13 @@
     </div>
     <div class="footer-bottom">
       <span>&copy; <span data-year>2026</span> Marvel Tokon Wiki &middot; <a href="/privacy/">Privacy Policy</a> &middot; <a href="/terms/">Terms of Service</a></span>
-      <span>Unofficial fan project. Not affiliated with Marvel, Arc System Works, Sony or PlayStation.</span>
+      <span data-i18n="footer.disclaimer">Unofficial fan project. Not affiliated with Marvel, Arc System Works, Sony or PlayStation.</span>
     </div>
   </div>
 </footer>
 <script src="/assets/js/main.js"></script>
+<script src="/assets/js/i18n.js"></script>
 </body>
 </html>
+
 
