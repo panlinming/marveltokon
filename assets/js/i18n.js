@@ -79,16 +79,26 @@
     }
   };
 
+  var EXTRA = window.MTW_I18N_EXTRA || {};
+  Object.keys(EXTRA).forEach(function (l) { if (I18N[l]) { for (var k in EXTRA[l]) I18N[l][k] = EXTRA[l][k]; } });
+
   var LABELS = { en: "EN", es: "ES", ja: "JA", pt: "PT" };
   var KEY = "mtw-lang";
+
+  var ORIG = {};
+  document.querySelectorAll("[data-i18n]").forEach(function (el) {
+    var k0 = el.getAttribute("data-i18n");
+    if (!(k0 in ORIG)) ORIG[k0] = (el.tagName === "INPUT" || el.tagName === "TEXTAREA") ? el.placeholder : el.innerHTML;
+  });
 
   function applyLang(lang) {
     if (!I18N[lang]) lang = "en";
     document.documentElement.lang = lang;
     document.querySelectorAll("[data-i18n]").forEach(function (el) {
       var k = el.getAttribute("data-i18n");
-      var val = (I18N[lang] && I18N[lang][k]) || I18N.en[k];
-      if (val != null) el.innerHTML = val;
+      var val = (I18N[lang] && I18N[lang][k]) || I18N.en[k] || ORIG[k];
+      if (val == null) return;
+      if (el.tagName === "INPUT" || el.tagName === "TEXTAREA") el.placeholder = val; else el.innerHTML = val;
     });
     var code = document.querySelector(".lang-code");
     if (code) code.textContent = LABELS[lang];
@@ -135,3 +145,5 @@
   try { saved = localStorage.getItem(KEY) || "en"; } catch (e) {}
   applyLang(saved);
 })();
+
+
