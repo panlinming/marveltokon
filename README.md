@@ -59,3 +59,13 @@ tokon.gg, marveltokon.org, Dustloop, the official Zendesk FAQ, Destructoid and G
 
 Unofficial fan project. Not affiliated with Marvel, Arc System Works, Sony or PlayStation.
 
+
+## Google Analytics
+
+The GA4 measurement ID lives in `.env.local` (gitignored):
+
+    NEXT_PUBLIC_GA_ID="G-XXXXXXXXXX"
+
+After changing it, re-inject into all pages and commit:
+
+    node scripts/inject-ga.mjs
