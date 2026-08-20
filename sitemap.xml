@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://www.marveltokonwiki.wiki/</loc><changefreq>daily</changefreq><priority>1.0</priority></url>
-  <url><loc>https://www.marveltokonwiki.wiki/tier-list/</loc><changefreq>daily</changefreq><priority>0.9</priority></url>
-  <url><loc>https://www.marveltokonwiki.wiki/characters/</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://www.marveltokonwiki.wiki/characters/spider-man/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.marveltokonwiki.wiki/characters/doctor-doom/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.marveltokonwiki.wiki/characters/wolverine/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.marveltokonwiki.wiki/characters/iron-man/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.marveltokonwiki.wiki/guides/best-teams/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.marveltokonwiki.wiki/guides/beginner/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.marveltokonwiki.wiki/system-requirements/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://marveltokonwiki.wiki/</loc><changefreq>daily</changefreq><priority>1.0</priority></url>
+  <url><loc>https://marveltokonwiki.wiki/tier-list/</loc><changefreq>daily</changefreq><priority>0.9</priority></url>
+  <url><loc>https://marveltokonwiki.wiki/characters/</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://marveltokonwiki.wiki/characters/spider-man/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://marveltokonwiki.wiki/characters/doctor-doom/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://marveltokonwiki.wiki/characters/wolverine/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://marveltokonwiki.wiki/characters/iron-man/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://marveltokonwiki.wiki/guides/best-teams/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://marveltokonwiki.wiki/guides/beginner/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://marveltokonwiki.wiki/system-requirements/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 </urlset>
