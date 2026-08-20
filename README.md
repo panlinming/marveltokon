@@ -45,7 +45,7 @@ python -m http.server 8000
 
 - Unique `<title>` (≤ 60 chars where possible) and meta description (140–160 chars) per page.
 - Exactly one `<h1>` per page; `<h2>` marks section headings.
-- Canonical URLs on `https://marveltokonwiki.wiki`.
+- Canonical URLs on `https://www.marveltokonwiki.wiki` (matches the Cloudflare non-www -> www redirect).
 - Open Graph + Twitter card tags on all indexable pages.
 - `sitemap.xml` + `robots.txt`; legal pages set to `noindex`.
 
@@ -69,3 +69,4 @@ The GA4 measurement ID lives in `.env.local` (gitignored):
 After changing it, re-inject into all pages and commit:
 
     node scripts/inject-ga.mjs
+
